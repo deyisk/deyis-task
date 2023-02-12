@@ -1,0 +1,41 @@
+<form [formGroup]="form">
+  <div class="row filters">
+    <div class="col-md-4">
+      <span class="filter-header">Kontogebühren</span>
+      <select id="filter_checkboxes" class="vergleich_select" size="1" name="term" formControlName="filter1">
+        <option id="filter_all" name="filter_alle" value="1">Alle</option>
+        <option id="product_cost" name="product_cost" value="2">
+          Kostenlose Kontoführung
+        </option>
+        <option id="incentive" name="incentive" value="3">
+          Mit Startguthaben
+        </option>
+      </select>
+    </div>
+    <div class="col-md-4">
+      <span class="filter-header">Kontofeature</span>
+      <select id="filter_checkboxes" class="vergleich_select" size="1" name="term" formControlName="filter2">
+        <option id="filter_all" name="filter_alle" value="1">Alle</option>
+        <option id="incoming_pm_min" name="incoming_pm_min" value="2">
+          Ohne Mindestgeldeingang
+        </option>
+        <option id="partnercard" name="partnercard" value="3">
+          Gemeinschaftskonto möglich
+        </option>
+      </select>
+    </div>
+    <div class="col-md-4">
+      <span class="filter-header">Geld abheben</span>
+      <select id="filter_checkboxes" class="vergleich_select" size="1" name="term" formControlName="filter3">
+        <option id="filter_all" name="filter_alle" value="1">Alle</option>
+        <option id="atm_euro_fee" name="atm_euro_fee" value="2">
+          Kostenlos Geld abheben Eurozone
+        </option>
+        <option id="atm_international_fee" name="atm_international_fee" value="3">
+          Kostenlos Geld abheben weltweit
+        </option>
+      </select>
+    </div>
+  </div>
+
+</form>

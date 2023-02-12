@@ -1,0 +1,41 @@
+.navbar {
+  height: 84px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  z-index: 99;
+}
+
+.cont {
+}
+
+.under-navbar {
+  height: 230px;
+  background-image: url("/assets/header-bg.jpg");
+  background-size: cover;
+  background-position-y: 25%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.under-navbar span {
+  color: #fff;
+  font-size: 34px;
+  line-height: 1.4;
+  text-shadow: 1px 1px #3363ad;
+  margin-top: 15px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .under-navbar {
+    height: 150px;
+  }
+
+  .under-navbar span {
+    font-size: 24px;
+  }
+}

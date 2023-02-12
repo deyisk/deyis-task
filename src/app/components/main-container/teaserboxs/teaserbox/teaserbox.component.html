@@ -1,0 +1,63 @@
+<div class="teaserbox teaserbox_eins">
+  <div class="teaserbox_special_text">
+    {{ item?.title1 }}
+  </div>
+  <div class="teaserbox_special_text second" *ngIf="item?.title2">
+    <img class="ls-is-cached lazyloaded"
+      src="https://finanzvergleich.com/wp-content/uploads/2023/01/Mobiles-Produkt-Logo.svg" />
+    {{ item?.title2 }}
+  </div>
+  <div class="teaserbox_sterne" style="grid-column: 2/4">
+    <div class="stars four_stars half">
+      <span class="star"></span> <span class="star"></span>
+      <span class="star"></span> <span class="star"></span>
+      <span class="star"></span>
+    </div>
+  </div>
+  <div class="teaserbox_note">
+    <div class="product_note">
+      <span class="note_outer note_content">{{ item?.point }}</span>
+      <span class="note_text medium_text note_content">Sehr gut</span>
+    </div>
+  </div>
+  <div class="middle_content">
+    <div class="teaserbox_logo logo_n26">
+      <a href="https://finanzvergleich.com/financeads.php?id=1818&subid=0ffe3a1b4b14fbc8" target="_blank">
+        <img width="100" height="100" [src]="item?.imageUrl"
+          class="attachment-full size-full wp-post-image ls-is-cached lazyloaded" alt="" />
+      </a>
+    </div>
+  </div>
+  <div class="teaserbox_bullets">
+    <div class="feature_wrap">
+
+      <span *ngFor="let i of item?.titles" class="kk_feature_2 kk_feature most_important"><i
+          class="fas fa-check-circle"></i><span class="kk_feature_text">{{i}}
+          <span class="tipr"><i class="fa fa-info-circle vgl-icon-color-neutral"></i></span></span></span>
+
+    </div>
+  </div>
+  <div class="teaserbox_price" style="display: none">
+    <div class="geb-item">
+      <p class="geb-item-value featured">
+        <span class="kosten_pa_1"> 0,00 € </span>
+      </p>
+      <p class="geb-item-text">Grundgebühr</p>
+    </div>
+  </div>
+  <div class="teaserbox_stoerer" style="display: none">
+    <div class="stoerer_wrap">
+      <span class="stoerer stoerer_eins"> 8 Min. Eröffnung </span>
+      <span class="stoerer stoerer_zwei second">
+        <img class="lazyload"
+          src="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%2711%27%20height%3D%2713%27%20viewBox%3D%270%200%2011%2013%27%3E%3Crect%20width%3D%2711%27%20height%3D%2713%27%20fill-opacity%3D%220%22%2F%3E%3C%2Fsvg%3E" />
+        Bestes mobiles Konto
+      </span>
+    </div>
+  </div>
+  <div class="teaserbox_cta">
+    <a href="https://finanzvergleich.com/financeads.php?id=1818&subid=0ffe3a1b4b14fbc8" target="_blank">
+      <span class="button">Zum Anbieter »</span>
+    </a>
+  </div>
+</div>

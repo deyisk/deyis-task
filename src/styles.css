@@ -1,0 +1,16 @@
+@import url(./finanzvergleich.css);
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+.cont{
+  max-width: 1100px !important;
+}

@@ -25,3 +25,31 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## HOW TO RUN PROJECT?
+
+# 1: Nodejs
+
+v16.17.0 version must be installed on the computer
+
+# 2: npm
+
+v9.4.1 must be installed on the computer
+
+# 3:
+
+after downloading nodejs, run the command "npm i -g npm"
+
+# 4: download angular
+
+npm install -g @angular/cli
+
+# 5: download dependencies
+
+please go to the project location ( cd minijob ) and run this command -> "npm install" and download project dependencies
+
+# 6: npm run start
+
+At the location of the project run this command;
+-> "npm run start" or "ng serve -o"
